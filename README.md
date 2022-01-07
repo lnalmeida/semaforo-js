@@ -1,0 +1,1 @@
+Projeto de semáforo, feito no fim de noite com HTML, CSS e Javascript, pra fins didáticos. Tentei escrever da forma mais simples possível para poder ir explicando e  implemantando junto com meus amigos que estão mais iniciantes que eu no javascript, afim de que eles possam irentendendo e assimilando os conceitos até onde eles já conhecem a kinguagem.

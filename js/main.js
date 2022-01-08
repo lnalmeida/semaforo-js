@@ -15,6 +15,7 @@ function SwitchLights() {
 }
 
 function TrafficLights() {
+    currentLight = 2;
     interval = setInterval(changeColor, 3000);
 }
 
@@ -44,9 +45,9 @@ function TurnOff() {
 function changeColor() {
     const colors = ['vermelho', 'amarelo', 'verde'];
     imgTrafficLights.src = `assets/${colors[currentLight]}.png`;
-    currentLight++;
-    if (currentLight > 2) {
-        currentLight = 0;
+    currentLight--;
+    if (currentLight < 0) {
+        currentLight = 2;
     }
     console.log(currentLight);
 }
